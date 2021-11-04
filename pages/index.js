@@ -3,8 +3,8 @@ import { PasswordInput } from '../component/password';
 import { useRouter } from 'next/router';
 
 export default function Home() {
-  const { router } = useRouter();
-  const login = {
+  const router = useRouter();
+  const login = () =>  {
     router.push('/list')
   }
   return (

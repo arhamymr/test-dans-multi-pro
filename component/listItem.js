@@ -7,8 +7,8 @@ export function List({ id, title, company, location, type}) {
     <Link href={`/list/${id}`} passHref>
       <Flex 
         flexDirection="column" 
-        p="4" 
-        m="4"  
+        mb={4}
+        p={4}
         cursor="pointer"
         justifyContent="center"
         boxShadow="lg" 
